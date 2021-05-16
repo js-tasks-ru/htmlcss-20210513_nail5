@@ -1,0 +1,122 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    background-color: gray;
+}
+
+header {
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    width: 100%;
+    padding: 0 50px;
+    background-color: wheat;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+main {
+
+    padding: 50px;
+}
+
+article {
+    background-color: darkred;
+    padding: 25px;
+    margin: 25px;
+}
+
+article ul {
+    padding-left: 20px;
+}
+
+article ul li {
+    position: relative;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+article ul li:last-child {
+    margin-bottom: 0;
+}
+
+article ol {
+    padding-left: 20px;
+}
+
+article ol li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+article ol li:last-child {
+    margin-bottom: 0;
+}
+
+
+article h2 {
+    font-size: 3rem;
+    color: green;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding: 10px 50px;
+    background-color: darkturquoise;
+    margin-top: auto;
+}
+
+
+footer h2 {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
