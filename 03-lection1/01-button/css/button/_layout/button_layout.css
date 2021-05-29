@@ -1,0 +1,44 @@
+.button_layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+    min-height: 100vh;
+}
+
+.button_layout__row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    width: 100%;
+}
+
+.button_layout__title {
+    color: var(--black);
+    font-size: 2.3rem;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.button_layout__container {
+    display: flex;
+    align-items: center;
+    min-width: 705px;
+    margin-bottom: 16px;
+}
+.button_layout__container:last-child {
+    margin-bottom: 0;
+}
+
+.button_layout__state {
+    font-size: 0.75rem;
+    font-weight: normal;
+    color: var(--grey-3);
+    text-transform: uppercase;
+    margin: 0;
+    margin-right: auto;
+}
+
+.button_layout__button--margin {
+    margin-right: 32px;
+}

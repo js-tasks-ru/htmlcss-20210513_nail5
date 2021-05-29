@@ -1,49 +1,5 @@
 /* Стилизация кнопки */
 
-.buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e5e5e5;
-    min-height: 100vh;
-}
-
-.buttons__row {
-    display: flex;
-    justify-content: space-between;
-    max-width: 50%;
-    width: 100%;
-}
-
-.buttons__title {
-    color: var(--black);
-    font-size: 2.3rem;
-    line-height: 1.3;
-    margin: 0;
-}
-
-.buttons__container {
-    display: flex;
-    align-items: center;
-    min-width: 705px;
-    margin-bottom: 16px;
-}
-.buttons__container:last-child {
-    margin-bottom: 0;
-}
-
-.buttons__state {
-    font-size: 0.75rem;
-    font-weight: normal;
-    color: var(--grey-3);
-    text-transform: uppercase;
-    margin: 0;
-    margin-right: auto;
-}
-
-.buttons--mr {
-    margin-right: 32px;
-}
 
 .btn {
     display: inline-block;
@@ -62,35 +18,35 @@
 }
 
 
-.btn-primary {
+.btn_primary {
     padding: 15px 62px;
     background-color: var(--blue);
     transition: background-color .2s;
 }
 
-.btn-primary:hover {
+.btn_primary:hover {
     background-color: var(--blue-deep);
 }
-.btn-primary:active {
+.btn_primary:active {
     background-color: var(--blue-deeper);
 }
 
 
-.btn-secondary {
+.btn_secondary {
     padding: 15px 53px;
     background-color: var(--purple);
     transition: background-color .2s;
 }
 
-.btn-secondary:hover {
+.btn_secondary:hover {
     background-color: var(--purple-deep);
 }
-.btn-secondary:active {
+.btn_secondary:active {
     background-color: var(--purple-deeper);
 }
 
 
-.btn-alternate {
+.btn_alternate {
     padding: 14px 58px;
     background-color: var( --white);
     color: var(--grey-4);
@@ -98,10 +54,10 @@
     transition: border-color .2s, background-color .2s, color .2s;
 }
 
-.btn-alternate:hover {
+.btn_alternate:hover {
     border-color: var(--black);
 }
-.btn-alternate:active {
+.btn_alternate:active {
     background-color: var(--grey-3);
     border-color: var(--grey-4);
 

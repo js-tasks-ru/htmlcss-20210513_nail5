@@ -3,39 +3,40 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./button.css">
+        <link rel="stylesheet" href="./css/button/_layout/button_layout.css">
+        <link rel="stylesheet" href="./css/button/button.css">
     </head>
     <body>
 
-        <section class="buttons">
-            <div class="buttons__row">
+        <section class="button_layout">
+            <div class="button_layout__row">
 
-                <div class="buttons__col">
-                    <h1 class="buttons__title">
+                <div class="button_layout__col">
+                    <h1 class="button_layout__title">
                         Buttons
                     </h1>
                 </div>
 
-                <div class="buttons__col">
-                    <div class="buttons__container">
-                        <h4 class="buttons__state">
+                <div class="button_layout__col">
+                    <div class="button_layout__container">
+                        <h4 class="button_layout__state">
                             Default
                         </h4>
 
-                        <button class="btn btn-primary buttons--mr">Primary</button>
-                        <button class="btn btn-secondary buttons--mr">Secondary</button>
-                        <button class="btn btn-alternate">Alternate</button>
+                        <button class="btn btn_primary button_layout__button--margin">Primary</button>
+                        <button class="btn btn_secondary button_layout__button--margin">Secondary</button>
+                        <button class="btn btn_alternate">Alternate</button>
 
                     </div>
 
-                    <div class="buttons__container">
-                        <h4 class="buttons__state">
+                    <div class="button_layout__container">
+                        <h4 class="button_layout__state">
                             Disabled
                         </h4>
 
-                        <button class="btn btn-primary btn--disabled buttons--mr">Primary</button>
-                        <button class="btn btn-secondary btn--disabled buttons--mr">Secondary</button>
-                        <button class="btn btn-alternate btn--disabled">Alternate</button>
+                        <button class="btn btn_primary btn--disabled button_layout__button--margin">Primary</button>
+                        <button class="btn btn_secondary btn--disabled button_layout__button--margin">Secondary</button>
+                        <button class="btn btn_alternate btn--disabled">Alternate</button>
 
                     </div>
                 </div>
