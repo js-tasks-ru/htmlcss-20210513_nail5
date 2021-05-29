@@ -10,3 +10,12 @@
     max-width: 40%;
     width: 100%;
 }
+
+.page-homework__heading {
+    text-align: center;
+}
+
+.page-homework__accordion {
+    max-width: 579px;
+    margin: 0 auto;
+}

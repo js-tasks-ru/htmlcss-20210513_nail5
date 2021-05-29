@@ -1,17 +1,5 @@
 /* Стилизация аккордеона */
 
-.accordion--width {
-    max-width: 579px;
-}
-
-.accordion--mc {
-    margin: 0 auto;
-}
-
-.accordion_heading {
-    text-align: center;
-}
-
 .accordion {
     margin-bottom: 8px;
     border: 1px solid var(--grey-3);
@@ -43,18 +31,11 @@
     transition: transform .3s;
 }
 
-.accordion[open] .accordion__head {
-    padding-bottom: 0;
-}
-
 .accordion[open] .accordion__arrow {
     transform: rotate(180deg);
 }
 
-
-
 .accordion__info {
     margin: 0;
-    padding: 24px 32px;
-    padding-top: 16px;
+    padding: 0 32px 24px 32px;
 }
