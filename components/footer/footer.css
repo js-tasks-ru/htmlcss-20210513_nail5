@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--white);
+    border-top: 1px solid var(--grey-2);
+}
+
+.footer__inner {
+    padding: 71px 0 136px 0;
+}
+
+.footer__heading {
+    font-size: 2.3rem;
+    color: var(--dark);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.footer__text {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}

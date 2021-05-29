@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.header__inner {
+    padding-top: 24px;
+}
+
+.header__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+
+.header__title {
+    font-size: 3.1rem;
+    line-height: 1.4;
+    color: var(--black);
+    margin-bottom: 40px;
+}
