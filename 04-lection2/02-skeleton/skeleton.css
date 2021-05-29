@@ -21,14 +21,14 @@
     margin-right: 16px;
 }
 
-.lines__item {
+.skeleton__lines_item {
     height: 20px;
     margin-bottom: 8px;
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
 
-.lines__item:last-child {
+.skeleton__lines_item:last-child {
     margin-bottom: 0;
 }
 
@@ -37,18 +37,18 @@
     width: 100%;
 }
 
-.head_lines__first {
+.skeleton__lines_item_first {
     width: 60%;
 }
 
-.head_lines__second {
+.skeleton__lines_item_second {
     width: 100%;
 }
 
-.info_lines__first {
+.skeleton__info_lines_first {
     width: 95%;
 }
 
-.info_lines__second {
+.skeleton__info_lines_second {
     width: 85%;
 }
