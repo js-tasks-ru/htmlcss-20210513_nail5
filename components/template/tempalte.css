@@ -1,0 +1,26 @@
+.template {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.template__header {
+    padding-top: 24px;
+    padding-bottom: 60px;
+    background-color: brown;
+}
+
+.template__main {
+    display: grid;
+    grid-template-columns: 229px 1fr;
+    grid-column-gap: 56px;
+    background-color: green;
+    max-width: 1010px;
+    width: 100%;
+    justify-self: center;
+}
+
+.template__footer {
+    background-color: brown;
+    padding: 56px 0;
+}
