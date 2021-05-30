@@ -1,0 +1,5 @@
+.main {
+    flex-grow: 1;
+    padding: 68px 0 92px 0;
+    background-color: var(--grey-1);
+}
