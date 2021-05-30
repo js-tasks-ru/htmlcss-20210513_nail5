@@ -1,0 +1,18 @@
+.page-homework {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+    min-height: 100vh;
+}
+
+.page-homework__container {
+    max-width: 354px;
+    width: 100%;
+}
+
+.page-homework__title {
+    margin: 0;
+    margin-bottom: 24px;
+    text-align: center;
+}
